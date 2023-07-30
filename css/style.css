@@ -1,0 +1,28 @@
+.show-btn a:hover{
+    background-color: #0A58CA;
+    color: #fff;
+}
+.show-btn .active{
+    background-color: #0A58CA;
+    color: #fff;
+}
+.meals img{
+    height: 250px;
+    transition: all 0.3s ease-in-out;
+}
+.meals{
+    overflow: hidden;
+}
+.meals img:hover{
+    transform: scale(1.1);
+}
+.meals p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000b9;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+}
